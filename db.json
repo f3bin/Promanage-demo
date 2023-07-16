@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "teamlead1",
+      "password": "teamlead",
+      "role": "teamlead"
+    },
+    {
+      "id": 3,
+      "username": "teamlead2",
+      "password": "teamlead",
+      "role": "teamlead"
+    },
+    {
+      "id": 4,
+      "username": "teamlead3",
+      "password": "teamlead",
+      "role": "teamlead"
+    },
+    {
+      "id": 5,
+      "username": "employee1",
+      "password": "employee",
+      "role": "employee"
+    },
+    {
+      "id": 6,
+      "username": "employee2",
+      "password": "employee",
+      "role": "employee"
+    },
+    {
+      "id": 7,
+      "username": "employee3",
+      "password": "employee",
+      "role": "employee"
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "New",
+      "assignedTeamLead": "hrtk",
+      "id": 5
+    },
+    {
+      "projectName": "kuttu",
+      "assignedTeamLead": "teamlead3",
+      "id": 13
+    },
+    {
+      "projectName": "StarHealth",
+      "assignedTeamLead": "teamlead3",
+      "id": 14
+    },
+    {
+      "projectName": "Stargolds",
+      "assignedTeamLead": "teamlead2",
+      "id": 16
+    },
+    {
+      "projectName": "blah",
+      "assignedTeamLead": "teamlead2",
+      "id": 17
+    }
+  ],
+  "tasks": [
+    {
+      "taskName": "wd",
+      "assignedEmployee": "wqd",
+      "projectId": "5",
+      "id": 3
+    },
+    {
+      "taskName": "Manu",
+      "assignedEmployee": "employee2",
+      "projectId": "13",
+      "id": 4
+    },
+    {
+      "taskName": "Manu",
+      "assignedEmployee": "employee1",
+      "projectId": "13",
+      "id": 5
+    },
+    {
+      "taskName": "ManuRaj",
+      "assignedEmployee": "employee1",
+      "projectId": "13",
+      "id": 6
+    },
+    {
+      "taskName": "Header",
+      "assignedEmployee": "employee2",
+      "projectId": "14",
+      "id": 8
+    },
+    {
+      "taskName": "jj",
+      "assignedEmployee": "employee2",
+      "projectId": "14",
+      "id": 9
+    },
+    {
+      "taskName": "Footer",
+      "assignedEmployee": "employee1",
+      "projectId": "13",
+      "id": 10
+    }
+  ]
+}

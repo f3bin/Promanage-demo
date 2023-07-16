@@ -1,0 +1,52 @@
+// CreateProjectForm.scss
+
+.create-project-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .create-project-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .create-project-form form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .create-project-form input,
+  .create-project-form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .create-project-form select {
+    appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='currentColor' d='M286.857 224H33.143C14.9 224 0 238.743 0 256s14.9 32 33.143 32h253.714c18.243 0 33.143-14.743 33.143-32s-14.9-32-33.143-32z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+  }
+  
+  .create-project-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .create-project-form button:hover {
+    background-color: #45a049;
+  }
+  

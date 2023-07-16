@@ -1,0 +1,47 @@
+// Projects.scss
+
+.projects-container {
+    padding: 20px;
+  }
+  
+  .project-item {
+    margin-bottom: 20px;
+  }
+  
+  .project-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-item ul {
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .task-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .task-button:hover {
+    background-color: #0069d9;
+  }
+  
